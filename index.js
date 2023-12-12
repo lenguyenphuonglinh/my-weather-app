@@ -51,3 +51,14 @@ function updateDateTime(date) {
 let currentDateELement = document.querySelector("#datetime");
 let currentDate = new Date();
 currentDateELement.innerHTML = updateDateTime(currentDate);
+
+var currentHour = new Date().getHours();
+var greetingElement = document.getElementById("greeting");
+
+if (currentHour >= 4 && currentHour < 12) {
+  greetingElement.textContent = "Good morning";
+} else if (currentHour >= 12 && currentHour < 18) {
+  greetingElement.textContent = "Good afternoon";
+} else {
+  greetingElement.textContent = "Good evening";
+}
