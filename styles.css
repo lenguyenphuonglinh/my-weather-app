@@ -52,14 +52,14 @@ h3 {
   padding-top: 10px;
   padding-bottom: 15px;
 }
-h4 {
+h5 {
   text-align: left;
   color: #c75c7a;
   position: relative;
-  left: 35px;
+  left: 25px;
   padding-top: 10px;
   font-weight: 600;
-  font-size: 23px;
+  font-size: 21px;
 }
 p {
   font-style: italic;
@@ -72,11 +72,11 @@ p {
   font-size: 20px;
   margin: 5px 10px;
 }
-.cloud {
-  color: #de5c89;
-  margin: -10px 10px;
-}
 .footnote {
   text-align: center;
   padding-top: 10px;
+}
+.icon1 {
+  max-width: 100%;
+  margin: -8px 0px;
 }
