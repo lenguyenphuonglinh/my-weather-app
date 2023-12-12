@@ -76,3 +76,7 @@ p {
   color: #de5c89;
   margin: -10px 10px;
 }
+.footnote {
+  text-align: center;
+  padding-top: 10px;
+}
